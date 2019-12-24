@@ -1,5 +1,4 @@
 doboggi_man Debugged
-2019³â 5¿ù 30ÀÏ, ¸ñ¿äÀÏ, ¿ÀÈÄ 11:32 ¿¡ ±èÇÏÁø ¾¸
 
 Debugged file "character.py" is attached.
 
@@ -23,72 +22,24 @@ More deeply, for example, following situation can occur:
 
  6) Please watch the gif file(replayed per about 15 sec.)
 
-
-
-  
-
- 
+<img src="_src/problem.gif">
 
 This problem is caused because of "character.py".
 
- 
-
-def turnEast(self):
-"""Turn doboggi_man's direction to the east.""" 
-if self.dir == 'east': # do nothing if already facing east
-return
-self.ttl.setheading(0) # change doboggi_man turtle's direction to east
-self.dir = 'east'      # remember our new direction
-self.updateShape()     # call to switch image according our new direction
-
-def turnSouth(self):
-"""Ditto for south"""
-if self.dir == 'south':
-return
-self.ttl.setheading(270)
-self.dir = 'south'
-self.updateShape()
-
-def turnWest(self):
-"""Ditto for west"""
-if self.dir == 'west':
-return
-self.ttl.setheading(180)
-self.dir = 'west'
-self.updateShape()
-
-def turnNorth(self):
-"""Ditto for north"""
-if self.dir == 'north':
-return
-self.ttl.setheading(90)
-self.dir = 'north'
-self.updateShape()
- 
-
-Provided code is line 192~222, character.py.
+Line 192~222, character.py.
 
 The methods change the direction of doboggi_man.
 
-The mechanisms of methods are "(1)set turtle heading(movement direction)" ¡æ "(2)change direction value" ¡æ " update changed direction"
+The mechanisms of methods are "(1)set turtle heading(movement direction)" â†’ "(2)change direction value" â†’ " update changed direction"
 
-Above bug is from (1)¡æ(2), because (1) and (2) is separated.
+Above bug is from (1)â†’(2), because (1) and (2) is separated.
 
 With keyboard, user can make the direction is east but heading is west.
 
 So, to debug this, we should not separate (1) and (2).
 
- 
-
-  
-
-
-
- 
-
-
-
- 
+<img src="_src/1.png">
+<img src="_src/2.png">
 
 Left : previous character.py
 
