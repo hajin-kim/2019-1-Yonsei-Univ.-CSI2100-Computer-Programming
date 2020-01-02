@@ -1,0 +1,14 @@
+Lab3 Feedback
+
+Score checking : 4.2 02½Ã
+Inspection : 4.4 19½Ã
+Feedback : 6.28 12½Ã
+
+ p1 :
+  # Feedback : -1 wrong coding style : missing comment
+ p2 :
+  # Feedback : -1 wrong coding style : missing comment
+ p3 :
+  # Feedback : -1 wrong coding style : missing comment
+ p4 :
+  # Feedback : -1 wrong coding style : missing comment

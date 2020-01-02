@@ -1,0 +1,8 @@
+Lab9 Feedback
+
+Score checking : 5.22 16½Ã
+Inspection : 5.23 16½Ã
+Feedback : 6.28 12½Ã
+
+ p4 :
+  # Feedback : -5(25%) flower should not be set position

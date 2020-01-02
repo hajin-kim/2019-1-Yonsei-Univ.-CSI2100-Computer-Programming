@@ -1,0 +1,12 @@
+Lab10 Feedback
+
+Score checking : 5.31 07½Ã(revised)
+Inspection : 5.30 17½Ã
+Feedback : 6.28 12½Ã
+
+ p1 :
+  # Feedback : -25(100%) file name typo anwser.txt
+ p2 :
+  # Feedback : -5(20%) missing return 0
+ p4:
+  # Feedback : -6.25(25%) list out of range exception when the number of the input is only one

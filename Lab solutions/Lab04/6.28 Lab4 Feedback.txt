@@ -1,0 +1,15 @@
+Lab4 Feedback
+
+Score checking : 4.8 18½Ã
+Inspection : 4.11 19½Ã
+Feedback : 6.28 12½Ã
+
+ p1 :
+  # Feedback : -1 wrong coding style : missing comment
+  # Feedback : -1(5%) evaluating error on one test case : missing "* 0.05"
+ p2 :
+  # Feedback : -1 wrong coding style : missing comment
+ p3 :
+  # Feedback : -1 wrong coding style : missing comment
+ p4 :
+  # Feedback : -1 wrong coding style : missing comment
